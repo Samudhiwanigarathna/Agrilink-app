@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <!-- Header -->
+       
         <TextView
             android:text="Settings/Notifications"
             android:textSize="22sp"
@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <!-- Language Selector -->
+       
         <TextView
             android:layout_marginTop="24dp"
             android:text="Language Preference"
@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <!-- Notification Settings -->
+        
         <TextView
             android:layout_marginTop="24dp"
             android:text="Notification Settings"
@@ -65,7 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <!-- Notifications -->
+       
         <TextView
             android:layout_marginTop="32dp"
             android:text="Recent Notifications"
