@@ -27,7 +27,7 @@ public class BuyerDashboardActivity extends Activity {
         btnFilterRating = findViewById(R.id.btnFilterRating);
         listViewProducts = findViewById(R.id.listViewProducts);
 
-        // Sample product data
+        //  product data
         products = new ArrayList<>();
         products.add("Coconut Oil - LKR 500");
         products.add("Mango Pickle - LKR 300");
@@ -51,7 +51,7 @@ public class BuyerDashboardActivity extends Activity {
         });
 
         btnFilterPrice.setOnClickListener(v -> {
-            Collections.sort(products); // Simple mock sort
+            Collections.sort(products); 
             adapter.notifyDataSetChanged();
         });
 
