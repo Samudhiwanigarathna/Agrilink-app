@@ -31,7 +31,7 @@ public class UserProfileActivity extends AppCompatActivity {
         editBtn.setOnClickListener(v -> enableEditing(true));
         saveBtn.setOnClickListener(v -> {
             enableEditing(false);
-            // Add save logic here (Firebase/Room/etc.)
+            
         });
     }
 
