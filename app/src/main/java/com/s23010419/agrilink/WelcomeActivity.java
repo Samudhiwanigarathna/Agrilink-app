@@ -24,7 +24,7 @@ public class WelcomeActivity extends AppCompatActivity {
         btnLogin = findViewById(R.id.btnLogin);
         btnSignUp = findViewById(R.id.btnSignUp);
 
-        // Set adapters from strings.xml
+       
         ArrayAdapter<CharSequence> roleAdapter = ArrayAdapter.createFromResource(this,
                 R.array.user_roles, android.R.layout.simple_spinner_item);
         roleAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
