@@ -21,6 +21,6 @@
             android:layout_gravity="center_horizontal"
             android:paddingBottom="16dp" />
 
-        <!-- Order items will be dynamically added here -->
+       
     </LinearLayout>
 </ScrollView>
