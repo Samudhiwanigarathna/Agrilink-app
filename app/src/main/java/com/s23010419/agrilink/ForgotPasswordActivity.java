@@ -36,7 +36,7 @@ public class ForgotPasswordActivity extends AppCompatActivity {
                     // Simulated reset logic
                     Toast.makeText(ForgotPasswordActivity.this, "Password reset link sent to " + input, Toast.LENGTH_LONG).show();
 
-                    // Optionally redirect to Login
+                    //  redirect to Login
                     Intent intent = new Intent(ForgotPasswordActivity.this, ForgotPasswordActivity.class);
                     startActivity(intent);
                     finish();
