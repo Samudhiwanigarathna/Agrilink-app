@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <!-- Page Title -->
+       
         <TextView
             android:text="Upload New Product"
             android:textSize="22sp"
@@ -20,14 +20,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <!-- Product Name -->
+        
         <EditText
             android:id="@+id/inputProductName"
             android:hint="Product Name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <!-- Product Description -->
+       
         <EditText
             android:id="@+id/inputProductDesc"
             android:hint="Description"
@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <!-- Product Category -->
+        
         <EditText
             android:id="@+id/inputProductCategory"
             android:hint="Category (e.g., Pickles, Dried Fruit)"
@@ -43,7 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <!-- Price per Unit -->
+        
         <EditText
             android:id="@+id/inputProductPrice"
             android:hint="Price per Unit (LKR)"
@@ -52,7 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <!-- Quantity -->
+       
         <EditText
             android:id="@+id/inputProductQty"
             android:hint="Quantity"
@@ -61,7 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <!-- Upload Image Button -->
+        
         <Button
             android:id="@+id/btnUploadImage"
             android:text="Upload Product Image"
@@ -69,7 +69,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <!-- IoT Sensor Status -->
+       
         <TextView
             android:id="@+id/txtSensorStatus"
             android:text="IoT Sensor: Not connected"
@@ -78,7 +78,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <!-- Action Buttons -->
+       
         <LinearLayout
             android:orientation="horizontal"
             android:gravity="end"
