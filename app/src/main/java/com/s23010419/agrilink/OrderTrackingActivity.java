@@ -15,8 +15,7 @@ public class OrderTrackingActivity extends AppCompatActivity {
 
     TextView tvOrderId, tvOrderStatus;
     ListView listTimeline;
-    WebView mapWebView; // Replaces static ImageView
-
+    WebView mapWebView;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,13 +25,13 @@ public class OrderTrackingActivity extends AppCompatActivity {
         tvOrderId = findViewById(R.id.tvOrderId);
         tvOrderStatus = findViewById(R.id.tvOrderStatus);
         listTimeline = findViewById(R.id.listTimeline);
-        mapWebView = findViewById(R.id.mapWebView); // WebView for map
+        mapWebView = findViewById(R.id.mapWebView); 
 
-        // Set Order ID and status
+        
         tvOrderId.setText("Order ID: #AG12345");
         tvOrderStatus.setText("Status: Out for Delivery");
 
-        // Sample delivery steps
+       
         String[] deliverySteps = {
                 "Confirmed",
                 "Packed at Warehouse",
@@ -47,11 +46,11 @@ public class OrderTrackingActivity extends AppCompatActivity {
 
         listTimeline.setAdapter(adapter);
 
-        // Setup WebView for map (can use a static or dynamic map link)
+       
         mapWebView.setWebViewClient(new WebViewClient());
         mapWebView.getSettings().setJavaScriptEnabled(true);
 
-        // Sample map showing a delivery path (customize with delivery coordinates)
-        mapWebView.loadUrl("https://www.google.com/maps/d/embed?mid=1fYdJ1q5J9BzOtL8HVJ_1nRZqktkq2-Xa"); // Replace with your tracking link if needed
+       
+        mapWebView.loadUrl("https://www.google.com/maps/d/embed?mid=1fYdJ1q5J9BzOtL8HVJ_1nRZqktkq2-Xa"); 
     }
 }
