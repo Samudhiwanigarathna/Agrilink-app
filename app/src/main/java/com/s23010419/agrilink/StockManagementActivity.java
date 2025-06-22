@@ -19,7 +19,7 @@ public class StockManagementActivity extends AppCompatActivity {
 
     LinearLayout productListLayout;
 
-    // Sample product class
+    
     class Product {
         String name;
         int quantity;
@@ -39,7 +39,7 @@ public class StockManagementActivity extends AppCompatActivity {
 
         productListLayout = findViewById(R.id.productListLayout);
 
-        // Sample stock list
+       
         stockList = new ArrayList<>();
         stockList.add(new Product("Coconut Oil", 20));
         stockList.add(new Product("Jaggery", 15));
