@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- Title -->
+    
     <TextView
         android:id="@+id/txtTitle"
         android:text="Browse Products"
@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <!-- Search Bar -->
+   
     <EditText
         android:id="@+id/inputSearch"
         android:hint="Search products..."
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <!-- Filter Options -->
+   
     <LinearLayout
         android:orientation="horizontal"
         android:layout_marginTop="10dp"
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content" />
     </LinearLayout>
 
-    <!-- Product List -->
+    
     <ListView
         android:id="@+id/listViewProducts"
         android:layout_marginTop="14dp"
@@ -66,7 +66,7 @@
         android:layout_height="0dp"
         android:layout_weight="1" />
 
-    <!-- Bottom Navigation -->
+   
     <LinearLayout
         android:orientation="horizontal"
         android:gravity="center"
