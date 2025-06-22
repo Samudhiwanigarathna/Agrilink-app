@@ -41,17 +41,17 @@ public class FarmerDashboardActivity extends AppCompatActivity {
         });
 
         btnManageStock.setOnClickListener(v -> {
-            // Future: Start ManageStockActivity
+            //  Start ManageStockActivity
         });
 
         btnNotifications.setOnClickListener(v -> {
-            // Future: Open NotificationsActivity
+            //  Open NotificationsActivity
         });
     }
 
     private void simulateRainSensor() {
         // Simulate sensor data
-        boolean isRaining = new Random().nextBoolean(); // Random true/false
+        boolean isRaining = new Random().nextBoolean(); 
 
         if (isRaining) {
             txtSmartAlerts.setText("🌧️ Rain detected by sensor! Please store goods in dry area.");
