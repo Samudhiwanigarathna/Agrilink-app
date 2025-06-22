@@ -24,7 +24,7 @@ public class AnalyticsDashboardActivity extends Activity {
         listTopProducts = findViewById(R.id.listTopProducts);
         imgSalesChart = findViewById(R.id.imgSalesChart);
 
-        // Sample data
+       
         String[] topProducts = {"Coconut Oil", "Dried Mango", "Organic Jaggery", "Spice Mix", "Pickled Chilies"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
