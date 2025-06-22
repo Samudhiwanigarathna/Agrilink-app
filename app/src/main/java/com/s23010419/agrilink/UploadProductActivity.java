@@ -29,7 +29,7 @@ public class UploadProductActivity extends Activity {
         btnCancel = findViewById(R.id.btnCancel);
 
         btnUploadImage.setOnClickListener(v -> {
-            // You can add image picker code here
+           
             Toast.makeText(this, "Image upload coming soon!", Toast.LENGTH_SHORT).show();
         });
 
@@ -41,7 +41,7 @@ public class UploadProductActivity extends Activity {
                 Toast.makeText(this, "Please fill in required fields.", Toast.LENGTH_SHORT).show();
             } else {
                 Toast.makeText(this, "Product Saved!", Toast.LENGTH_SHORT).show();
-                finish(); // close screen after saving
+                finish(); 
             }
         });
 
