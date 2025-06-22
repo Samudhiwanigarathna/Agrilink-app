@@ -23,7 +23,7 @@ public class AdminDashboardActivity extends AppCompatActivity {
         btnManageUsers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Example: Navigate to ManageUsersActivity
+                // Navigate to ManageUsersActivity
                 Intent intent = new Intent(AdminDashboardActivity.this, ManageUsersActivity.class);
                 startActivity(intent);
             }
@@ -32,7 +32,7 @@ public class AdminDashboardActivity extends AppCompatActivity {
         btnViewOrders.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Example: Navigate to ViewAllOrdersActivity
+                // Navigate to ViewAllOrdersActivity
                 Intent intent = new Intent(AdminDashboardActivity.this, ViewAllOrdersActivity.class);
                 startActivity(intent);
             }
@@ -41,7 +41,7 @@ public class AdminDashboardActivity extends AppCompatActivity {
         btnInventoryStatus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Example: Navigate to InventoryStatusActivity
+                //  Navigate to InventoryStatusActivity
                 Intent intent = new Intent(AdminDashboardActivity.this, InventoryStatusActivity.class);
                 startActivity(intent);
             }
@@ -50,7 +50,7 @@ public class AdminDashboardActivity extends AppCompatActivity {
         btnUserReports.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Example: Navigate to UserReportsActivity
+                //  Navigate to UserReportsActivity
                 Intent intent = new Intent(AdminDashboardActivity.this, UserReportsActivity.class);
                 startActivity(intent);
             }
