@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- Dashboard Title -->
+  
     <TextView
         android:text="Farmer Dashboard"
         android:textStyle="bold"
@@ -16,7 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <!-- Quick Stats Section -->
+   
     <LinearLayout
         android:orientation="horizontal"
 
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content" />
     </LinearLayout>
 
-    <!-- Action Buttons -->
+   
     <LinearLayout
         android:orientation="vertical"
         android:layout_marginTop="20dp"
@@ -85,7 +85,7 @@
             android:layout_height="wrap_content" />
     </LinearLayout>
 
-    <!-- Smart Notification Banner -->
+  
     <TextView
         android:id="@+id/txtSmartAlerts"
         android:layout_width="match_parent"
@@ -97,8 +97,7 @@
         android:textColor="#D84315"
         android:textSize="14sp" />
 
-    <!-- Bottom Navigation (Mockup) -->
-
+   
     <LinearLayout
         android:orientation="horizontal"
         android:gravity="center"
