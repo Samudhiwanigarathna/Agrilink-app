@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <!-- Product Image -->
+        
         <ImageView
             android:id="@+id/productImage"
             android:src="@drawable/ic_launcher_background"
@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp" />
 
-        <!-- Product Name -->
+       
         <TextView
             android:id="@+id/productName"
             android:text="Dried Mango Slices"
@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <!-- Seller Info -->
+       
         <TextView
             android:id="@+id/sellerInfo"
             android:text="by Farmer Sunil, Kurunegala"
@@ -39,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <!-- Price and Stock -->
+       
         <TextView
             android:id="@+id/priceStock"
             android:text="LKR 350 | In Stock: 25"
@@ -49,7 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <!-- Sensor Status -->
+       
         <TextView
             android:id="@+id/sensorStatus"
             android:text="✅ Fresh (monitored by IoT sensor)"
@@ -59,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <!-- Description -->
+        
         <TextView
             android:id="@+id/productDescription"
             android:text="These dried mango slices are made from organically grown mangoes. No added sugar. Perfect for snacking."
@@ -68,7 +68,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <!-- Action Buttons -->
+        
         <LinearLayout
             android:orientation="horizontal"
             android:gravity="center"
@@ -92,7 +92,7 @@
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <!-- Track Delivery Button -->
+       
         <Button
             android:id="@+id/btnTrackDelivery"
             android:text="View Delivery Timeline"
