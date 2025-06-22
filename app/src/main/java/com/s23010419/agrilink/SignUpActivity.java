@@ -47,7 +47,7 @@ public class SignUpActivity extends AppCompatActivity {
                     return;
                 }
 
-                // Handle sign-up logic (e.g., save to database or Firebase)
+                
                 Toast.makeText(SignUpActivity.this, "Account created successfully!", Toast.LENGTH_SHORT).show();
                 finish();
             }
