@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#F5F5F5">
 
-    <!-- Header -->
+    
     <LinearLayout
         android:id="@+id/headerLayout"
         android:layout_width="0dp"
@@ -37,7 +37,7 @@
             android:textStyle="bold" />
     </LinearLayout>
 
-    <!-- Category RecyclerView -->
+    
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/categoryRecyclerView"
         android:layout_width="0dp"
