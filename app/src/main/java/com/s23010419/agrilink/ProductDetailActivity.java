@@ -14,7 +14,7 @@ public class ProductDetailActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_product_detail);
 
-        // Initialize UI components
+        
         productName = findViewById(R.id.productName);
         sellerInfo = findViewById(R.id.sellerInfo);
         priceStock = findViewById(R.id.priceStock);
@@ -25,7 +25,7 @@ public class ProductDetailActivity extends Activity {
         btnMessage = findViewById(R.id.btnMessage);
         btnTrackDelivery = findViewById(R.id.btnTrackDelivery);
 
-        // Click Listeners
+       
         btnAddToCart.setOnClickListener(v ->
                 Toast.makeText(this, "Added to cart", Toast.LENGTH_SHORT).show());
 
