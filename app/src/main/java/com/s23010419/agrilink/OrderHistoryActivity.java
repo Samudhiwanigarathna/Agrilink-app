@@ -38,7 +38,7 @@ public class OrderHistoryActivity extends AppCompatActivity {
 
         orderHistoryLayout = findViewById(R.id.orderHistoryLayout);
 
-        // Dummy orders (Replace with database or API later)
+       
         orderList = new ArrayList<>();
         orderList.add(new Order("ORD001", "Coconut Oil", 2, "2025-06-01", "Delivered"));
         orderList.add(new Order("ORD002", "Jaggery", 5, "2025-06-10", "Pending"));
