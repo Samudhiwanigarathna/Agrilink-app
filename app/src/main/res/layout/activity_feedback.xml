@@ -11,7 +11,7 @@
         android:orientation="vertical"
         android:gravity="center_horizontal">
 
-        <!-- Title -->
+        
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -21,7 +21,7 @@
             android:textColor="#388E3C"
             android:layout_marginBottom="24dp" />
 
-        <!-- Product or Order Title -->
+        
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
             android:textSize="16sp"
             android:layout_marginBottom="16dp" />
 
-        <!-- Rating Bar -->
+       
         <RatingBar
             android:id="@+id/ratingBar"
             android:layout_width="wrap_content"
@@ -41,7 +41,7 @@
             android:isIndicator="false"
             android:layout_marginBottom="16dp" />
 
-        <!-- Feedback Text -->
+       
         <EditText
             android:id="@+id/editTextFeedback"
             android:layout_width="match_parent"
@@ -54,7 +54,7 @@
             android:textColor="#000000"
             android:textSize="14sp" />
 
-        <!-- Submit Button -->
+        
         <Button
             android:id="@+id/buttonSubmitFeedback"
             android:layout_width="match_parent"
