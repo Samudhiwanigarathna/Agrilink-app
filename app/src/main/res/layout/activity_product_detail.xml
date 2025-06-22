@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#F9F9F9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/productImage"
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <!-- Product Name -->
+        <TextView
+            android:id="@+id/productName"
+            android:text="Dried Mango Slices"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Seller Info -->
+        <TextView
+            android:id="@+id/sellerInfo"
+            android:text="by Farmer Sunil, Kurunegala"
+            android:textSize="14sp"
+            android:textColor="#777"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Price and Stock -->
+        <TextView
+            android:id="@+id/priceStock"
+            android:text="LKR 350 | In Stock: 25"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Sensor Status -->
+        <TextView
+            android:id="@+id/sensorStatus"
+            android:text="✅ Fresh (monitored by IoT sensor)"
+            android:textSize="14sp"
+            android:textColor="#4CAF50"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/productDescription"
+            android:text="These dried mango slices are made from organically grown mangoes. No added sugar. Perfect for snacking."
+            android:textSize="15sp"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnAddToCart"
+                android:text="Add to Cart"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnMessage"
+                android:text="Message"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Track Delivery Button -->
+        <Button
+            android:id="@+id/btnTrackDelivery"
+            android:text="View Delivery Timeline"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

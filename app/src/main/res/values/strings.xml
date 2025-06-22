@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">AgriLink</string>
+
+    <!-- Welcome / Login / Signup -->
+    <string name="welcome_message">Welcome to AgriLink</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="select_role">Select Role</string>
+    <string name="farmer">Farmer</string>
+    <string name="buyer">Buyer</string>
+
+    <!-- Farmer Dashboard -->
+    <string name="dashboard_title">Farmer Dashboard</string>
+    <string name="upload_product">Upload Product</string>
+    <string name="manage_stock">Manage Stock</string>
+    <string name="view_orders">View Orders</string>
+    <string name="notifications">Notifications</string>
+
+    <!-- Upload Product -->
+    <string name="product_name">Product Name</string>
+    <string name="product_description">Description</string>
+    <string name="product_category">Category</string>
+    <string name="product_price">Price per unit</string>
+    <string name="product_quantity">Quantity</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="publish">Publish</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Buyer Dashboard -->
+    <string name="search">Search Products</string>
+    <string name="filters">Filters</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="view_cart">View Cart</string>
+
+    <!-- Product Detail -->
+    <string name="product_details">Product Details</string>
+    <string name="stock_status">Stock Status</string>
+    <string name="seller_info">Seller Info</string>
+    <string name="fresh_status">Freshness</string>
+    <string name="message_seller">Message Seller</string>
+
+    <!-- Order Tracking -->
+    <string name="track_order">Track Order</string>
+    <string name="order_status">Order Status</string>
+    <string name="map_view">View on Map</string>
+
+    <!-- Analytics -->
+    <string name="analytics">Analytics Dashboard</string>
+    <string name="sales_chart">Sales Over Time</string>
+    <string name="top_products">Top Products</string>
+    <string name="ratings">Customer Ratings</string>
+
+    <!-- Notifications -->
+    <string name="order_updates">Order Updates</string>
+    <string name="market_alerts">Market Alerts</string>
+    <string name="weather_warnings">Weather Warnings</string>
+
+    <!-- Feedback -->
+    <string name="feedback_title">Feedback</string>
+    <string name="write_feedback">Write your review...</string>
+    <string name="submit_feedback">Submit</string>
+
+    <!-- Order History -->
+    <string name="order_history">Order History</string>
+    <string name="order_id">Order ID</string>
+    <string name="product">Product</string>
+    <string name="quantity">Quantity</string>
+    <string name="date">Date</string>
+    <string name="status">Status</string>
+
+    <!-- Other -->
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Page Title -->
+        <TextView
+            android:text="Upload New Product"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Product Name -->
+        <EditText
+            android:id="@+id/inputProductName"
+            android:hint="Product Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Product Description -->
+        <EditText
+            android:id="@+id/inputProductDesc"
+            android:hint="Description"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Product Category -->
+        <EditText
+            android:id="@+id/inputProductCategory"
+            android:hint="Category (e.g., Pickles, Dried Fruit)"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Price per Unit -->
+        <EditText
+            android:id="@+id/inputProductPrice"
+            android:hint="Price per Unit (LKR)"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Quantity -->
+        <EditText
+            android:id="@+id/inputProductQty"
+            android:hint="Quantity"
+            android:inputType="number"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Upload Image Button -->
+        <Button
+            android:id="@+id/btnUploadImage"
+            android:text="Upload Product Image"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- IoT Sensor Status -->
+        <TextView
+            android:id="@+id/txtSensorStatus"
+            android:text="IoT Sensor: Not connected"
+            android:textColor="#D84315"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:text="Cancel"
+                android:layout_marginEnd="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnSaveProduct"
+                android:text="Save/Publish"
+                android:backgroundTint="#2E7D32"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
