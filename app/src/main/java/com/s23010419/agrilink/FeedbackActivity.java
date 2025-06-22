@@ -35,12 +35,12 @@ public class FeedbackActivity extends AppCompatActivity {
                     return;
                 }
 
-                // For now, just show a Toast (replace with database or Firebase save logic)
+               
                 Toast.makeText(FeedbackActivity.this,
                         "Thanks for your feedback!\nRating: " + rating + "\nComment: " + feedback,
                         Toast.LENGTH_LONG).show();
 
-                // Clear inputs
+             
                 ratingBar.setRating(0);
                 editTextFeedback.setText("");
             }
