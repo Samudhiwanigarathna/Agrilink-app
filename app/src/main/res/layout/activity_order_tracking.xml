@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     tools:context=".OrderTrackingActivity">
 
-    <!-- Order ID and Status -->
+   
     <TextView
         android:id="@+id/tvOrderId"
         android:text="Order ID: #AG12345"
@@ -27,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <!-- Delivery Timeline -->
+   
     <TextView
         android:text="Delivery Timeline:"
         android:textStyle="bold"
@@ -43,7 +43,7 @@
         android:divider="#CCC"
         android:dividerHeight="1dp" />
 
-    <!-- Live Map -->
+    
     <TextView
         android:text="Live Delivery Tracking (Map)"
         android:textStyle="bold"
